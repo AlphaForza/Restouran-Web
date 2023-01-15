@@ -1,0 +1,94 @@
+.app__wrapper {
+  width: 100%;
+}
+
+.app__wrapper .chef__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.app__wrapper .chef__img img {
+  width: 70%;
+}
+
+.app__wrapper .chef__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 80%;
+}
+
+.app__wrapper .chef__text .subhead-chef {
+  margin: 1rem 0;
+}
+
+.app__wrapper .chef__text .subhead-chef h4 {
+  color: #fff;
+  font-family: var(--font-base);
+  font-size: 1.2rem;
+  margin: .5rem 0;
+}
+
+.app__wrapper .chef__text .chef__desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  margin: 2rem 0 0 0;
+}
+
+.app__wrapper .chef__text .chef__desc img {
+  width: 40px;
+  height: 40px;
+  margin: .4rem;
+}
+
+.app__wrapper .chef__text .chef__desc p {
+  color: var(--color-crimson);
+  font-size: 1.1rem;
+}
+
+.app__wrapper .chef__text .p_text_bottom {
+  width: 70%;
+  color: var(--color-crimson);
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.app__wrapper .chef__text h3 {
+  color: var(--color-golden);
+  font-family: var(--font-base);
+  font-size: 2rem;
+}
+
+.app__wrapper .chef__text .sing_text {
+  color: var(--color-crimson);
+  font-size: .8rem;
+  margin-bottom: 2rem;
+  letter-spacing: .4px;
+}
+
+.app__wrapper .chef__text .sign_img {
+  width: 50%;
+}
+/*# sourceMappingURL=Chef.css.map */

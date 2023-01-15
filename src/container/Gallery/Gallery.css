@@ -1,0 +1,17 @@
+.app__gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: var(--color-black);
+  padding: 4rem 0 4rem 6rem;
+}
+
+.app__gallery h2 {
+  color: #fff;
+  font-family: var(--font-base);
+}
+/*# sourceMappingURL=Gallery.css.map */

@@ -1,0 +1,98 @@
+.app__laurels {
+  width: 100%;
+}
+
+.app__laurels .app__laurels_info {
+  width: 100%;
+}
+
+.app__laurels .app__laurels_info h3 {
+  color: #fff;
+  font-family: var(--font-base);
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 650px) {
+  .app__laurels .app__laurels_info h2 {
+    text-align: center;
+  }
+}
+
+.app__laurels .app__laurels_info .app__laurels_wrapper {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 650px) {
+  .app__laurels .app__laurels_info .app__laurels_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.app__laurels .app__laurels_info .app__laurels_wrapper .app__laurels_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem 0;
+}
+
+.app__laurels .app__laurels_info .app__laurels_wrapper .app__laurels_card img {
+  width: 100px;
+  height: 100px;
+}
+
+.app__laurels .app__laurels_info .app__laurels_wrapper .app__laurels_card .app__laurels_text h4 {
+  color: var(--color-golden);
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.app__laurels .app__laurels_info .app__laurels_wrapper .app__laurels_card .app__laurels_text p {
+  color: var(--color-white);
+  margin: 1rem 0 0 1rem;
+}
+
+.app__laurels .app__laurels_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.app__laurels .app__laurels_img img {
+  width: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 650px) {
+  .app__laurels .app__laurels_img img {
+    margin: 2rem 0;
+    width: 100%;
+    padding: 2rem;
+  }
+}
+/*# sourceMappingURL=Laurels.css.map */

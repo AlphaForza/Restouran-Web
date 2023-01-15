@@ -1,0 +1,79 @@
+.app__laurels{
+
+    width: 100%;
+    // height: 100vh;
+
+.app__laurels_info{
+    width: 100%;
+
+    h3{
+        color: #fff;
+        font-family: var(--font-base);
+        font-size: 1.5rem;
+    }
+    
+    h2{
+            @media screen and (max-width: 650px){
+                text-align: center;
+            }
+    }
+
+    .app__laurels_wrapper{
+        width: 100%;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+
+        @media screen and (max-width: 650px){
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        // flex-wrap: wrap;
+
+
+        .app__laurels_card{
+            display: flex;
+            align-items: center;
+            margin: 2rem 0;
+
+            img{
+                width: 100px;
+                height: 100px;
+            }
+            .app__laurels_text{
+                h4{
+                    color: var(--color-golden);
+                    font-size: 1.5rem;
+                    margin-left: 1rem;
+                }
+                p{
+                    color: var(--color-white);
+                    margin: 1rem 0 0 1rem;
+                }
+            }
+        }
+    }
+
+}
+
+.app__laurels_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // width: 100%;
+    img{
+        width: 80%;
+        object-fit: cover;
+
+        @media screen and (max-width: 650px){
+            margin: 2rem 0;
+            width: 100%;
+            padding: 2rem;
+        }
+    }
+}
+
+}

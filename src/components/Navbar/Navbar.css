@@ -1,0 +1,201 @@
+.app__navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 2rem 3rem;
+  position: relative;
+  background-color: var(--color-black);
+}
+
+@media screen and (max-width: 1100px) {
+  .app__navbar {
+    padding: 1rem 1.5rem;
+  }
+}
+
+.app__navbar .logo-navbar {
+  width: 200px;
+}
+
+.app__navbar ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.app__navbar ul .app__navbar-menu {
+  color: #fff;
+}
+
+.app__navbar ul .app__navbar-menu a {
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  font-family: var(--font-alt);
+}
+
+@media screen and (max-width: 1100px) {
+  .app__navbar ul .app__navbar-menu a {
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .app__navbar ul {
+    display: none;
+  }
+}
+
+.app__navbar .app__navbar-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  cursor: pointer;
+  font-family: var(--font-alt);
+}
+
+.app__navbar .app__navbar-login .app__navbar-loing-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.app__navbar .app__navbar-login .app__navbar-loing-text span {
+  margin: 0 5px;
+}
+
+.app__navbar .app__navbar-login h3 {
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 960px) {
+  .app__navbar .app__navbar-login {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .app__navbar .app__navbar-login {
+    font-size: .8rem;
+  }
+}
+
+.app__navbar .burger {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0 1rem 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.app__navbar .burger:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: var(--color-golden);
+}
+
+@media screen and (min-width: 960px) {
+  .app__navbar .burger {
+    display: none;
+  }
+}
+
+.app__navbar .menu-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 350px;
+  height: 100vh;
+  background-color: var(--color-black);
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+@media screen and (max-width: 420px) {
+  .app__navbar .menu-bar {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+.app__navbar .menu-bar ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.app__navbar .menu-bar ul .close-btn {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  color: var(--color-golden);
+  font-size: 2rem;
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.app__navbar .menu-bar ul .close-btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #fff;
+}
+
+.app__navbar .menu-bar ul li {
+  margin: 2rem 0;
+}
+
+.app__navbar .menu-bar ul li a {
+  color: var(--color-golden);
+  font-size: 1.6rem;
+  font-family: var(--font-base);
+  font-weight: bold;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.app__navbar .menu-bar ul li a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #fff;
+}
+/*# sourceMappingURL=Navbar.css.map */

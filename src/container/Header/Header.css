@@ -1,0 +1,76 @@
+.app__header {
+  background-color: var(--color-black);
+}
+
+.app__header .app__wrapper .app__header-leftside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+@media screen and (max-width: 560px) {
+  .app__header .app__wrapper .app__header-leftside {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+}
+
+.app__header .app__wrapper .app__header-leftside .subheading_header .header-text {
+  color: #fff;
+  font-family: var(--font-base);
+  margin: 10px 0;
+}
+
+.app__header .app__wrapper .app__header-leftside h2 {
+  margin: 1rem 0;
+}
+
+.app__header .app__wrapper .app__header-leftside p {
+  color: var(--color-crimson);
+  width: 70%;
+  margin: 1rem 0;
+  font-size: .9rem;
+}
+
+.app__header .app__wrapper .app__header-leftside .custom__button {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.app__header .app__wrapper .app__header-leftside .custom__button:hover {
+  background-color: var(--color-golden);
+}
+
+.app__header .app__wrapper .app__header-rightside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.app__header .app__wrapper .app__header-rightside img {
+  width: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=Header.css.map */
